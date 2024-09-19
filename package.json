@@ -1,0 +1,15 @@
+{
+  "name": "teste-01",
+  "version": "1.0.0",
+  "main": "oi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Daniela Cabrera",
+  "license": "ISC",
+  "description": "Primeiros passos API Node",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
