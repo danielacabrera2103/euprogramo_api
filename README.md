@@ -7,6 +7,7 @@
 ## 💻 Tecnologias utilizadas ao longo do projeto
 
 - [Node js](https://nodejs.org/pt)
+- [Javascript]
 
 ## ✨ Como foi feito ?
 
