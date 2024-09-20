@@ -7,6 +7,8 @@
 ## 💻 Tecnologias utilizadas ao longo do projeto
 
 - [Node js](https://nodejs.org/pt)
+- [Javascript](https://www.w3schools.com/js/)
+- [Insomnia](https://insomnia.rest/download)
 - [Render](https://dashboard.render.com/)
 
 ## ✨ Como foi feito ?
