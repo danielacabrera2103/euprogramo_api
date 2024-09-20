@@ -48,22 +48,41 @@ const mulheres = [
 
 ]
 
-function criaMulher(request, response){
+function criaMulher(request, response) {
     const novaMulher = {
         id: uuidv4(),
-        nome:request.body.nome,
+        nome: request.body.nome,
         imagem: request.body.imagem,
         minibio: request.body.minibio
     }
     mulheres.push(novaMulher)
-    response.json(mulheres) 
+    response.json(mulheres)
+}
+
+function corrigeMulher(request, response) {
+    function encontraMulher(mulher) {
+        if (mulher.id === request.params.id) {
+            return mulher
+        }
+    }
+    const mulherEncontrada = listaDeMulheres.find(encontraMulher)
+    if (request.body.nome) {
+        mulherEncontrada.nome = request.body.nome
+    }
+    if (request.body.minibio) {
+        mulherEncontrada.nome = request.body.minibio
+    }
+    if (request.body.imagem) {
+        mulherEncontrada.nome = request.body.imagem
+    }
+    response.json(listaDeMulheres)
 }
 
 function mostraMulheres(request, response) {
     // configuro o servidor para retornar um arquivo json como resposta
     response.json(mulheres)
 }
-
+//mostrar a porta que o serviço está usando
 function mostraPorta() {
     console.log('Servidor criado e rodando na porta: ', porta)
 }
@@ -71,5 +90,7 @@ function mostraPorta() {
 app.use(router.get('/mulheres', mostraMulheres))//configurei a rota GET
 //POST
 app.use(router.post('/mulheres', criaMulher))//configurei a rota POST
-
+//PATCH
+app.use(router.patch('/mulheres/:id', corrigeMulher))//configurei a rota POST
+//mostra porta
 app.listen(porta, mostraPorta)
