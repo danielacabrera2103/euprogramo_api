@@ -1,13 +1,13 @@
 # Criando API com Node
-Teste API - arquivos para teste da API desenvolvida no curso de desenvolvimento back-end.
 
-# Explorando o uso de inteligência artificial para criação de vídeos educacionais, diversão, apresentações, etc
+# Teste API - arquivos para teste da API desenvolvida no curso de desenvolvimento back-end.
 
  > ℹ️ **NOTE:** Curso Back-End | Minha primeira API! [euprogram{amo} ](https://www.programaria.org/cursos-programaria/)
 
 ## 💻 Tecnologias utilizadas ao longo do projeto
 
 - [Node js](https://nodejs.org/pt)
+- [Render](https://dashboard.render.com/)
 
 ## ✨ Como foi feito ?
 
