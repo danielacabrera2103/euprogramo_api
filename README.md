@@ -6,14 +6,21 @@
 
 ## 💻 Tecnologias utilizadas ao longo do projeto
 
-- [Node js](https://nodejs.org/pt)
+- [Node JS](https://nodejs.org/pt)
 - [Javascript](https://www.w3schools.com/js/)
 - [Insomnia](https://insomnia.rest/download)
 - [Render](https://dashboard.render.com/)
+- [MongoDB](https://www.mongodb.com/)
+- [Vercel](https://vercel.com/)
 
 ## ✨ Como foi feito ?
 
 Desde o primeiro módulo entregue, podemos acompanhar o amadurecimento no uso dessas ferramentas explorando e mesclando funções entre elas. 
+Node JS = Estrutura da API.
+Insomnia - Ferramenta para consumir e testar a API antes da integração com o Front-end.
+Render - Plataforma utilizada para implantar a API na Web.
+MongoDB - Banco de dados que utilizamos para armazenar nossas coleções de divas.
+Vercel - Plataforma utilizada para implantação do Front-end.
 
 ## 👨‍💻 Feito Por:
 
